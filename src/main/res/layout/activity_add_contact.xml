@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#525252">
+
+    <TextView
+        android:id="@+id/add_contact_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Добавить контакт"
+        android:textColor="#d5ccc7"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp" />
+
+    <ImageView
+        android:id="@+id/input_contact_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/bonichka"
+        android:background="#888" />
+
+    <EditText
+        android:id="@+id/input_contact_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Имя"
+        android:padding="10dp"
+        android:background="@android:color/white"
+        android:textColor="#000"
+        android:textColorHint="#888"
+        android:layout_marginBottom="10dp" />
+
+    <EditText
+        android:id="@+id/input_contact_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Номер телефона"
+        android:inputType="phone"
+        android:padding="10dp"
+        android:background="@android:color/white"
+        android:textColor="#000"
+        android:textColorHint="#888"
+        android:layout_marginBottom="10dp" />
+
+    <EditText
+        android:id="@+id/input_contact_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Дополнительная информация"
+        android:padding="10dp"
+        android:background="@android:color/white"
+        android:textColor="#000"
+        android:textColorHint="#888"
+        android:layout_marginBottom="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:text="Отмена"
+            android:backgroundTint="#FF6347"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/button_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Сохранить"
+            android:backgroundTint="#8a8178"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:paddingBottom="20dp"
+    android:background="#525252"
+    android:layout_marginBottom="20dp"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackground">
+
+    <ImageView
+        android:id="@+id/contact_list_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:paddingVertical="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/bonichka" />
+
+    <TextView
+        android:id="@+id/contact_list_title"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="10dp"
+        android:textColor="#d5ccc7"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="19sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Имя контакта" />
+
+    <TextView
+        android:id="@+id/contact_list_numb"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="10dp"
+        android:textColor="#d5ccc7"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+375299080771" />
+
+    <TextView
+        android:id="@+id/contact_list_desc"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="10dp"
+        android:textColor="#d5ccc7"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Домашний" />
+
+</LinearLayout>
